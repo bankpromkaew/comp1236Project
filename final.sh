@@ -20,18 +20,19 @@ while [ $attempts -gt 0 ]; do
     fi
 done
 #Menu selected
-echo "Please select the option by"
+echo "Execute Task by enter following alphabet listed below"
+
+while true; do
 echo "Enter H or h to Task 1 hexagonal numbers"
 echo "Enter S or s to Task 2 square numbers"
 echo "Enter Q or q to Task 3 quadratic sequences"
 echo "Enter X or x to Exit"
-    
-while true; do
 read -p "Your selected option is: " option
     case $option in
         H|h)
-            echo "Selected Program 1 Selected - Hexagonal numbers"
+            echo "executed Task 1 - Hexagonal numbers"
             #intro of hexagonal number
+	    echo "Hexagonal Numbers required user to inout range of number to calculating"
             echo "Enter start range of numbers here : "
             read a
             echo "Enter end of range of numbers here : "
