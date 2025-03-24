@@ -28,6 +28,7 @@ echo "Enter S or s to Task 2 square numbers"
 echo "Enter Q or q to Task 3 quadratic sequences"
 echo "Enter X or x to Exit"
 read -p "Your selected option is: " option
+
     case $option in
         H|h)
             echo "executed Task 1 - Hexagonal numbers"
