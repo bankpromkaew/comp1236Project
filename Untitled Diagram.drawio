@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15" version="26.1.1">
   <diagram name="Page-1" id="By6dQNs391RpXOpqeUJY">
-    <mxGraphModel dx="2158" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1269" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,7 +159,7 @@
           <mxGeometry x="775" y="1820" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="m7UFQ540Zj4ck79b5W-W-74" value="echo&amp;nbsp;&lt;span style=&quot;font-family: Menlo; font-size: 11px;&quot;&gt;Invalid option selected. Please use a valid option to executing programs.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="1827.5" width="170" height="95" as="geometry" />
+          <mxGeometry x="538" y="1827.5" width="170" height="95" as="geometry" />
         </mxCell>
         <mxCell id="m7UFQ540Zj4ck79b5W-W-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="m7UFQ540Zj4ck79b5W-W-74" target="m7UFQ540Zj4ck79b5W-W-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -190,6 +190,9 @@
         </mxCell>
         <mxCell id="m7UFQ540Zj4ck79b5W-W-84" value="Task1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1235" y="1090" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m7UFQ540Zj4ck79b5W-W-85" target="9CXpCsYRKlZcm--3XioX-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m7UFQ540Zj4ck79b5W-W-85" value="Task2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1235" y="1520" width="80" height="80" as="geometry" />
@@ -387,23 +390,87 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9CXpCsYRKlZcm--3XioX-24" value="n++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3840" y="1148.75" width="55" height="50" as="geometry" />
+          <mxGeometry x="3970" y="1030" width="55" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9CXpCsYRKlZcm--3XioX-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.554;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9CXpCsYRKlZcm--3XioX-24">
+        <mxCell id="9CXpCsYRKlZcm--3XioX-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9CXpCsYRKlZcm--3XioX-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3800" y="1010" as="sourcePoint" />
             <mxPoint x="3850" y="960" as="targetPoint" />
             <Array as="points">
               <mxPoint x="3870" y="1010" />
-              <mxPoint x="3870" y="1090" />
+              <mxPoint x="3870" y="1055" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9CXpCsYRKlZcm--3XioX-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3800" y="1100" as="sourcePoint" />
-            <mxPoint x="3870" y="1100" as="targetPoint" />
+            <mxPoint x="3870" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3870" y="1100" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="9CXpCsYRKlZcm--3XioX-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3996.94" y="1080" as="sourcePoint" />
+            <mxPoint x="3996.94" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-30" value="&lt;p style=&quot;text-align: justify; margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;&quot;Total number of odd hexagonal number is &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;$odd&lt;/span&gt;&quot;&lt;/p&gt;&lt;p style=&quot;text-align: justify; margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;Total number of even hexagonal number is &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;$even&lt;/span&gt;&lt;span style=&quot;color: rgb(163, 21, 21);&quot;&gt;&quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;&quot;sum of all odd hexagonal number is &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;$oddsum&lt;/span&gt;&quot;&lt;/p&gt;&lt;p style=&quot;text-align: justify; margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;&quot;sum of all even hexagonal number is &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;$evensum&lt;/span&gt;&quot;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3855.9700000000003" y="1111.25" width="283.06" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4139.03" y="1190" as="sourcePoint" />
+            <mxPoint x="4210" y="1190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4170" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-36" target="9CXpCsYRKlZcm--3XioX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-36" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;read&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; -p &lt;/span&gt;&quot;Would u like to execute another tasks enter Y or C to exit : &quot;&lt;span style=&quot;color: #000000&quot;&gt; ans&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="1150" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-39" target="9CXpCsYRKlZcm--3XioX-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-39" value="input Y or C" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="1272.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-41" target="9CXpCsYRKlZcm--3XioX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-41" value="Input validation" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4430" y="1262.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9CXpCsYRKlZcm--3XioX-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4470" y="1262.5" as="sourcePoint" />
+            <mxPoint x="4470" y="1100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4470" y="1187" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-46" value="Exit end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4410" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-41" target="m7UFQ540Zj4ck79b5W-W-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4870" y="1290" as="sourcePoint" />
+            <mxPoint x="870" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4510" y="790" />
+              <mxPoint x="860" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-50" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;echo &quot;Executing Program 2 Square numbers&quot;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="1530" width="185" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
