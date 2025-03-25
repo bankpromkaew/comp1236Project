@@ -74,38 +74,52 @@ read -p "Your selected option is: " option
             echo "Total number of even hexagonal number is $even"
             echo "sum of all odd hexagonal number is $oddsum"
             echo "sum of all even hexagonal number is $evensum"
+            read -p "Would u like to execute another tasks enter Y or C to exit : " ans
+            case $ans in
+            Y|y)
+                echo "go to menu"
+                ;;
+            X|x)
+                echo "exiting Program"
+                exit 0
+                ;;
+            *)
+                echo "Enter invalid input try again"
+                ;;
+            esac
             ;;
         S|s)
             echo "Executing Program 2 Square numbers"
-            echo "This Program calculate ther square numbers of odd position"
-            while true; do
+            echo "This Program calculate square numbers in odd position"
+            #set var
+            pos=1
+            countcon=0
+            num=0
             read -p "Please input the sequence of square numbes that u want to start: " sequence
             read -p "Please determined the amount of number that you want to calculated : " amount
             read -p "Please determined positive integer x to calculate factor : " x
             #validate input
-            if [[ $sequence -gt 0 && $amount -gt 0 ]]
+            if [[ $sequence -gt 0 && $amount -gt 0 && $x -gt 0 ]]
             then
-                echo "your input start sequence = $sequence, Amount = $amount and X =$x"
+                echo "your input sequence = $sequence, Amount = $amount and X =$x"
             else
                 echo "You enter invalid input, Please enter again"
                 exit 1
             fi
-            #set other var
-            pos=0 #to identified and count position of square number
-            num=1 #for star integer
-            countcon=0
+            while [[ $pos -lt $amount ]]; do
             #start sequence
             squarenumber=$((num * num))
             if [[ $pos -ge $sequence && $((num % 2 == 1)) && $amount -ne 0 ]]
                 then
                 echo "square number : $squarenumber sequence : $sequence"
                 ((sequece++))
-            fi
+                ((amount-1))
+            else
             ((pos++))
-            ((amount-1))
+            fi
             #find the factor that each square number are factor of x or not
             factor=$((squarenumber % x))
-            if (( factor == 0 )) then
+            if [[ $factor == 0 ]]; then
                 echo "$squarenumber is factor of $x"
             else
                 echo "$squarenumber is not factor of $x"
@@ -123,6 +137,19 @@ read -p "Your selected option is: " option
             done
             echo
             echo "amount of sum of consecutive number is : $countcon"
+            read -p "Would u like to execute another tasks enter Y or X to exit : " ans
+            case $ans in
+            Y|y)
+                echo "go to menu"
+                ;;
+            X|x)
+                echo "exiting Program"
+                exit 0
+                ;;
+            *)
+                echo "Enter invalid input try again"
+                ;;
+            esac
             ;;
         Q|q)
             echo "Selected Program 3 Quadratic sequences"
