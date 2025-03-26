@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15" version="26.1.1">
   <diagram name="Page-1" id="By6dQNs391RpXOpqeUJY">
-    <mxGraphModel dx="1269" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5415" dy="3225" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,12 +447,13 @@
         <mxCell id="9CXpCsYRKlZcm--3XioX-41" value="Input validation" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4430" y="1262.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9CXpCsYRKlZcm--3XioX-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9CXpCsYRKlZcm--3XioX-36">
+        <mxCell id="9CXpCsYRKlZcm--3XioX-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="9CXpCsYRKlZcm--3XioX-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4470" y="1262.5" as="sourcePoint" />
-            <mxPoint x="4470" y="1100" as="targetPoint" />
+            <mxPoint x="4470" y="1030" as="targetPoint" />
             <Array as="points">
               <mxPoint x="4470" y="1187" />
+              <mxPoint x="4470" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -469,8 +470,296 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9CXpCsYRKlZcm--3XioX-50" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;echo &quot;Executing Program 2 Square numbers&quot;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1375" y="1530" width="185" height="60" as="geometry" />
+        <mxCell id="9CXpCsYRKlZcm--3XioX-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-50" target="9CXpCsYRKlZcm--3XioX-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-50" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;&quot;Executing Program 2 Square numbers&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; background-color: rgb(255, 255, 255); color: rgb(163, 21, 21);&quot;&gt;&lt;font color=&quot;rgb(0, 0, 255)&quot;&gt;&lt;span style=&quot;caret-color: rgb(0, 0, 255);&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;&quot;This Program calculate square numbers of odd position&quot;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1497.5" width="185" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-52" target="9CXpCsYRKlZcm--3XioX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-52" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&quot;enter invalid input try again&quot;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-56" target="9CXpCsYRKlZcm--3XioX-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-56" value="pos=1(determined position)&lt;div&gt;num=1(var that use for cal squarenum&lt;/div&gt;&lt;div&gt;count con=0 (countconsecutivesum)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1503.75" width="150" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-60" target="9CXpCsYRKlZcm--3XioX-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-60" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;read&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; -p &lt;/span&gt;&quot;Please input the sequence of square numbes that u want to start: &quot;&lt;span style=&quot;color: #000000&quot;&gt; sequence&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;read&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; -p &lt;/span&gt;&quot;Please determined the amount of number that you want to calculated : &quot;&lt;span style=&quot;color: #000000&quot;&gt; amount&lt;/span&gt;&lt;/p&gt;&lt;br/&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;read&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; -p &lt;/span&gt;&quot;Please determined positive integer x to calculate factor : &quot;&lt;span style=&quot;color: #000000&quot;&gt; x&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="1486.25" width="285" height="153.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-62" target="9CXpCsYRKlZcm--3XioX-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-62" value="input sequence&lt;div&gt;input amount&lt;/div&gt;&lt;div&gt;input x&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1532.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-64" target="9CXpCsYRKlZcm--3XioX-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-64" target="9CXpCsYRKlZcm--3XioX-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-64" value="validate input&lt;div&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; background-color: rgb(255, 255, 255);&quot;&gt;$sequence -gt 0&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;amp;&amp;amp; $amount -gt 0&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; background-color: rgb(255, 255, 255);&quot;&gt;&amp;amp;&amp;amp; $x -gt 0&lt;/p&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2095" y="1638.75" width="210" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-68" target="9CXpCsYRKlZcm--3XioX-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-68" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&quot;your input sequence = &lt;span style=&quot;color: #000000&quot;&gt;$sequence&lt;/span&gt;, Amount = &lt;span style=&quot;color: #000000&quot;&gt;$amount&lt;/span&gt; and X =&lt;span style=&quot;color: #000000&quot;&gt;$x&lt;/span&gt;&quot;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1666.25" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-70" target="9CXpCsYRKlZcm--3XioX-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-70" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&quot;You enter invalid input, Please enter again&quot;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1902.5" y="1666.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-73" target="9CXpCsYRKlZcm--3XioX-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-73" target="9CXpCsYRKlZcm--3XioX-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-73" value="&amp;nbsp;chk $pos &amp;gt;= $amount" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="1654.38" width="90" height="83.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-75" target="9CXpCsYRKlZcm--3XioX-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-75" value="Squarenumber=$((num * num))" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2477.5" y="1570" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-77" target="9CXpCsYRKlZcm--3XioX-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-77" target="9CXpCsYRKlZcm--3XioX-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-77" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;[[ $pos -ge $sequence&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;&amp;amp;&amp;amp; $((num % 2 == 1))&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;&amp;amp;&amp;amp; $amount -ne 0 ]]&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="1520" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-81" target="9CXpCsYRKlZcm--3XioX-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-81" value="echo &quot;$squarenumber&quot;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2940" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-83" value="((++sequence))&lt;div&gt;((amount-1))&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-85" target="9CXpCsYRKlZcm--3XioX-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-85" value="((pos++))" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="1678.13" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-77" target="9CXpCsYRKlZcm--3XioX-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2720" y="1750" as="sourcePoint" />
+            <mxPoint x="2770" y="1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2800" y="1708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-88" target="9CXpCsYRKlZcm--3XioX-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-88" value="factor=$((square number % x))" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="1678.13" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-90" target="9CXpCsYRKlZcm--3XioX-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-90" value="factor==0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3467.5" y="1669.07" width="100" height="78.13" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-92" value="&lt;span style=&quot;font-family: Menlo; font-size: 11px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 11px; background-color: rgb(255, 255, 255); color: rgb(163, 21, 21);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;$squarenumber&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 11px; background-color: rgb(255, 255, 255); color: rgb(163, 21, 21);&quot;&gt; is factor of &lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;$x&lt;/span&gt;&lt;span style=&quot;font-family: Menlo; font-size: 11px; background-color: rgb(255, 255, 255); color: rgb(163, 21, 21);&quot;&gt;&quot;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="1678.135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-94" target="9CXpCsYRKlZcm--3XioX-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-94" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&quot;&lt;span style=&quot;color: #000000&quot;&gt;$squarenumber&lt;/span&gt; is not factor of &lt;span style=&quot;color: #000000&quot;&gt;$x&lt;/span&gt;&quot;&lt;/p&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="1578.7549999999999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9CXpCsYRKlZcm--3XioX-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3515" y="1671.25" as="sourcePoint" />
+            <mxPoint x="3565" y="1621.25" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3515" y="1609" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-99" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1850" width="25" height="23.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-101" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="735" y="1850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-102" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="1205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-103" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="1157.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-104" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-105" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="1205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-106" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3270" y="1170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-107" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="1225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-108" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3550" y="1060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-109" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3460" y="1030" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-110" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4420" y="1242.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-112" value="Y" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4490" y="1280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-114" value="C" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4420" y="1332.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-115" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2055" y="1669.07" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-116" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="1669.07" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-117" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1630" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-118" value="done" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2525" y="1779.9950000000001" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-120" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="1726.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-121" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2890" y="1560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-122" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2790" y="1654.38" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-123" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3550" y="1699.07" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-124" value="&amp;nbsp;No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3467.5" y="1648.13" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-125" target="9CXpCsYRKlZcm--3XioX-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-125" value="&lt;p style=&quot;margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #000000; background-color: #ffffff&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp;&lt;/span&gt;sumcon=$(((num * num) + ((num+1)*(num+1))))&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3780" y="1569.38" width="170" height="78.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-126" target="9CXpCsYRKlZcm--3XioX-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-126" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;echo &quot;$sumcon&quot;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3780" y="1699.07" width="170" height="78.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-128" target="9CXpCsYRKlZcm--3XioX-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-128" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;((countcon++))&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4025" y="1630.01" width="95" height="78.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-131" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3730" y="1716.25" as="sourcePoint" />
+            <mxPoint x="3760" y="1610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="3760" y="1716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-132" target="9CXpCsYRKlZcm--3XioX-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-132" target="9CXpCsYRKlZcm--3XioX-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-132" value="chk amount==0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4016.25" y="1800" width="112.5" height="86.26" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-135" value="((num++))" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="1813.13" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-140" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-117">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3020" y="1840" as="sourcePoint" />
+            <mxPoint x="3820" y="1840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2710" y="1630" />
+              <mxPoint x="2710" y="1840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-144" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-141" target="9CXpCsYRKlZcm--3XioX-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-141" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/span&gt;&quot;amount of sum of consecutive number is : &lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;$countcon&lt;/span&gt;&quot;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255);&quot;&gt;read&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; -p &lt;/span&gt;&quot;Would u like to execute another tasks enter Y or X to exit : &quot;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt; ans&lt;/span&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4205" y="1813.13" width="195" height="106.87" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-143" target="9CXpCsYRKlZcm--3XioX-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-143" value="input y or x" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4242.5" y="1660.005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-145" target="9CXpCsYRKlZcm--3XioX-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-145" target="9CXpCsYRKlZcm--3XioX-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4503.764705882353" y="1613.1063214774276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-145" value="validate input" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4450" y="1640.01" width="107.5" height="99.99" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9CXpCsYRKlZcm--3XioX-147" target="9CXpCsYRKlZcm--3XioX-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-147" value="&lt;p style=&quot;margin: 0px; font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-size-adjust: none; font-kerning: auto; font-variant-alternates: normal; font-variant-ligatures: normal; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-position: normal; font-variant-emoji: normal; font-feature-settings: normal; font-optical-sizing: auto; font-variation-settings: normal; color: rgb(163, 21, 21); background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;echo&lt;/span&gt;&lt;span style=&quot;color: #000000&quot;&gt; &lt;/span&gt;&quot;Enter invalid input try again&quot;&lt;/p&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4443.75" y="1820" width="120" height="76.87" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-150" value="echo&quot; go to menu&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4631.25" y="1660.0049999999999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-154" value="Exit end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4443.75" y="1540" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9CXpCsYRKlZcm--3XioX-155" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4690" y="1660" as="sourcePoint" />
+            <mxPoint x="4510" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4700" y="790" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
