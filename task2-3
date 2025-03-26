@@ -1,0 +1,164 @@
+#!/bin/bash
+
+# Function to check password
+check_password() {
+    attempts=3  # Set the number of attempts for entering the password
+    while [ $attempts -gt 0 ]; do
+        read -p "Please enter the password: " password  # Prompt for password
+        if [ "$password" == "w22" ]; then  # Check if the password is correct
+            echo "Password correct! Welcome"
+            return 0  # Exit the function if the password is correct
+        else
+            attempts=$((attempts - 1))  # Decrease the number of attempts
+            if [ $attempts -eq 1 ]; then
+                echo "Incorrect password! You have 1 attempt left"
+            elif [ $attempts -gt 0 ]; then
+                echo "Incorrect password! You have $attempts attempts left"
+            fi
+        fi
+    done
+    echo "Too many incorrect attempts! The program will now exit"
+    exit 1  # Exit the program if the password is incorrect after 3 attempts
+}
+
+# Function for Task 2 – Square numbers
+task2() {
+    echo "=== Task 2 – Square numbers ==="
+
+    # Part 1: Print square numbers in odd positions
+    read -p "Enter the starting position: " start  # Get the starting position
+    read -p "Enter the number of square numbers to print: " count  # Get the count
+    read -p "Enter the value of x to check for factors: " x  # Get the value of x
+
+    echo "Square numbers in odd positions:"
+    current_position=$start  # Set the current position
+    found_count=0  # Counter for found numbers
+    i=1  # Start with the first number
+
+    while [ $found_count -lt $count ]; do  # Find numbers until the count is reached
+        square=$((i * i))  # Calculate the square number
+        if [ $((current_position % 2)) -ne 0 ]; then  # Check if the position is odd
+            echo "Position $current_position: $square"
+            if [ $((x % square)) -eq 0 ]; then  # Check if the square is a factor of x
+                echo "  $square is a factor of $x"
+            else
+                echo "  $square is not a factor of $x"
+            fi
+            found_count=$((found_count + 1))  # Increment the found count
+        fi
+        current_position=$((current_position + 1))  # Move to the next position
+        i=$((i + 1))  # Move to the next number
+    done
+
+    # Part 2: Print numbers that can be written as the sum of two consecutive squares
+    read -p "Enter the maximum value for the sum of two consecutive squares: " max_sum  # Get the maximum sum
+
+    echo "Numbers that can be written as the sum of two consecutive squares:"
+    sum_count=0  # Counter for found sums
+    j=1  # Start with the first number
+
+    while true; do
+        square1=$((j * j))  # Calculate the first square
+        square2=$(( (j + 1) * (j + 1) ))  # Calculate the next square
+        sum=$((square1 + square2))  # Calculate the sum
+        if [ $sum -gt $max_sum ]; then  # Check if the sum exceeds the maximum
+            break  # Exit the loop if the sum is too large
+        fi
+        echo "$sum (from $square1 + $square2)"  # Print the sum
+        sum_count=$((sum_count + 1))  # Increment the sum count
+        j=$((j + 1))  # Move to the next number
+    done
+
+    echo "Total numbers found: $sum_count"  # Print the total count of numbers found
+}
+
+# Function for Task 3 – Quadratic sequence
+task3() {
+    echo "=== Task 3 – Quadratic sequence ==="
+
+    # Get user inputs
+    read -p "Enter the value of a: " a  # Get the value of a
+    read -p "Enter the value of b: " b  # Get the value of b
+    read -p "Enter the value of c: " c  # Get the value of c
+    read -p "Enter the starting position (n1): " n1  # Get the starting position
+    read -p "Enter the ending position (n2): " n2  # Get the ending position
+    read -p "Enter the value of x to check for multiples: " x  # Get the value of x
+
+    # Calculate the sequence and check for prime numbers
+    echo "Sequence:"
+    sum=0  # Sum of the sequence
+    prime_count=0  # Counter for prime numbers
+    first_term=0  # First term in the sequence
+    last_term=0  # Last term in the sequence
+
+    for ((n = n1; n <= n2; n++)); do  # Loop through the range
+        term=$((a * n * n + b * n + c))  # Calculate the term
+        echo "Position $n: $term"
+
+        # Check if the term is a prime number
+        is_prime=1  # Assume the term is prime
+        if [ $term -lt 2 ]; then  # Numbers less than 2 are not prime
+            is_prime=0
+        else
+            for ((i = 2; i * i <= term; i++)); do  # Check for factors
+                if [ $((term % i)) -eq 0 ]; then
+                    is_prime=0  # The term is not prime
+                    break
+                fi
+            done
+        fi
+
+        if [ $is_prime -eq 1 ]; then
+            echo "  $term is a prime number"
+            prime_count=$((prime_count + 1))  # Increment the prime count
+        else
+            echo "  $term is not a prime number"
+        fi
+
+        # Calculate the sum
+        sum=$((sum + term))
+
+        # Record the first and last terms
+        if [ $n -eq $n1 ]; then
+            first_term=$term
+        fi
+        if [ $n -eq $n2 ]; then
+            last_term=$term
+        fi
+    done
+
+    # Calculate the product and check if it is a multiple of x
+    product=$((first_term * last_term))  # Calculate the product
+    echo "Sum of the sequence: $sum"
+    echo "Product of the first and last terms: $product"
+
+    if [ $((product % x)) -eq 0 ]; then  # Check if the product is a multiple of x
+        echo "  $product is a multiple of $x"
+    else
+        echo "  $product is not a multiple of $x"
+    fi
+
+    echo "Total prime numbers found: $prime_count"  # Print the total count of prime numbers
+}
+
+# Main menu
+main_menu() {
+    echo "=== Main Menu ==="
+    echo "S - Square numbers (Task 2)"
+    echo "Q - Quadratic sequence (Task 3)"
+    echo "E - Exit the program"
+    read -p "Please select an option: " choice  # Prompt for user choice
+
+    case $choice in
+        S|s) task2;;  # Call Task 2
+        Q|q) task3;;  # Call Task 3
+        E|e) echo "Exiting the program..."; exit 0;;  # Exit the program
+        *) echo "Invalid option. Please try again.";;  # Notify the user of an invalid choice
+    esac
+}
+
+# Start the program
+check_password  # Check the password
+while true; do  # Loop to display the main menu
+    main_menu
+done
