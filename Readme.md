@@ -1,5 +1,6 @@
 # comp1236Project
 # comp1236Project
+** final_1 is the assembly of programe but not 100% finish need abit amend.
 - Flowchart >> In Progress 
 - Login Section >> Completed
 - Menu Selection >> Completed
